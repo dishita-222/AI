@@ -1,6 +1,7 @@
 import random
 
-# Generate a random number between 1 and 100
+# Generate a random number between 1 and 100 so that the number is limited and loop doesn't go to infinite
+
 secret_number = random.randint(1, 100)
 
 # Initialize the number of guesses to 0
